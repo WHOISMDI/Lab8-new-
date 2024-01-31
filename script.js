@@ -1,23 +1,23 @@
-// class Cars {
-//     constructor(brand, model, year, complectation) {
-//         this.brand = brand;
-//         this.model = model;
-//         this.year = year;
-//         this.complectation = complectation;
-//     }
+class Cars {
+    constructor(brand, model, year, complectation) {
+        this.brand = brand;
+        this.model = model;
+        this.year = year;
+        this.complectation = complectation;
+    }
     
-//     information() {
-//         document.write(`<p>Brand: ${this.brand}, Model: ${this.model}, Year: ${this.year}, Complectation: ${this.complectation}</p>`);
-//     }
-// }
+    information() {
+        document.write(`<p>Brand: ${this.brand}, Model: ${this.model}, Year: ${this.year}, Complectation: ${this.complectation}</p>`);
+    }
+}
 
-// let car1 = new Cars('Audi', 'RS8', '2016', 'coupe');
-// let car2 = new Cars('Audi', 'TT', '2010', 'coupe');
-// let car3 = new Cars('Audi', 'A6', '2009', 'sedan');
+let car1 = new Cars('Audi', 'RS8', '2016', 'coupe');
+let car2 = new Cars('Audi', 'TT', '2010', 'coupe');
+let car3 = new Cars('Audi', 'A6', '2009', 'sedan');
 
-// car1.information();
-// car2.information();
-// car3.information();
+car1.information();
+car2.information();
+car3.information();
 
 class Component {
     constructor(selector) {
